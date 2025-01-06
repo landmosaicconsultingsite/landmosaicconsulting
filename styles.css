@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero {
+    background-image: url('image1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .services {
+    padding: 50px 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .services .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .company-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: #343a40;
+    margin: 0;
+  }
+
+  .footerText{
+    font-family: 1.5rem;
+    font-weight: bold;
+
+  }
+
+  .services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff; /* Change this color for each service */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .icon-wrapper i {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .card-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+  }
+  
+  @media (max-width: 768px) {
+    .icon-wrapper {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .icon-wrapper i {
+      font-size: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
